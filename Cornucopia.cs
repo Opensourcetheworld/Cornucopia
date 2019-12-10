@@ -15,12 +15,12 @@ namespace Oxide.Plugins
             public CornuConfig()
             {
                 // Animals
-                Animals.Add(new CornuConfigItem { Prefab = "assets/bundled/prefabs/autospawn/animals/chicken.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
-                Animals.Add(new CornuConfigItem { Prefab = "assets/bundled/prefabs/autospawn/animals/horse.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
-                Animals.Add(new CornuConfigItem { Prefab = "assets/bundled/prefabs/autospawn/animals/boar.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
-                Animals.Add(new CornuConfigItem { Prefab = "assets/bundled/prefabs/autospawn/animals/stag.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
-                Animals.Add(new CornuConfigItem { Prefab = "assets/bundled/prefabs/autospawn/animals/wolf.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
-                Animals.Add(new CornuConfigItem { Prefab = "assets/bundled/prefabs/autospawn/animals/bear.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
+                Animals.Add(new CornuConfigItem { Prefab = "assets/rust.ai/agents/chicken/chicken.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
+                Animals.Add(new CornuConfigItem { Prefab = "assets/rust.ai/agents/horse/horse.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
+                Animals.Add(new CornuConfigItem { Prefab = "assets/rust.ai/agents/boar/boar.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
+                Animals.Add(new CornuConfigItem { Prefab = "assets/rust.ai/agents/stag/stag.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
+                Animals.Add(new CornuConfigItem { Prefab = "assets/rust.ai/agents/wolf/wolf.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
+                Animals.Add(new CornuConfigItem { Prefab = "assets/rust.ai/agents/bear/bear.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
 
                 // Ore nodes
                 Ores.Add(new CornuConfigItem { Prefab = "assets/bundled/prefabs/autospawn/resource/ores/stone-ore.prefab", Min = -1, Max = -1, IgnoreIrridiated = true });
